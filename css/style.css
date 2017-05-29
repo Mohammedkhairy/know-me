@@ -30,6 +30,16 @@ body h1,h2,h3,h4,h5,h6{
     min-height:650px;
     position: relative;
 }
+#mido {
+    background: url(../images/pi1.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;@
+    min-height:650px;
+    position: relative;
+}
 .top-header {
     padding: 2em 0;
 }
@@ -470,10 +480,33 @@ span.border.one:after {
     -o-border-radius:1.5em;
     -ms-border-radius:1.5em;
 }
+.mido ul li a {
+    padding: 0.6em 2em;
+    font-size: 1.2em;
+/*    color: #00a78e;
+*/    background:#00a78e;
+    color:#FFF;
+    border: 2px solid #00a78e;
+    text-decoration: none;
+    border-radius: 1.5em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+}
+/*.mido ul li a:hover{
+    background:#00a78e;
+    color:#FFF;
+    border-radius:1.5em;
+    -webkit-border-radius:1.5em;
+    -moz-border-radius:1.5em;
+    -o-border-radius:1.5em;
+    -ms-border-radius:1.5em;
+}*/
 .about-right{
     float: left;
     padding:0;
-    background:url(../images/midoo.png) no-repeat 0px 0px;
+    background:url(../images/midoo.png) no-repeat 100px 0px ;
     min-height:580px;
     background-size: cover;
     -o-background-size: cover;
@@ -577,6 +610,26 @@ span.border.one:after {
     transition-duration: 0.3s;
     width: 70px;
     height: 70px;
+    text-align: center;
+    border-radius: 50%;
+}
+.mido3 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background:#00a78e;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    width: 240px;
+    height: 240px;
     text-align: center;
     border-radius: 50%;
 }
@@ -1183,7 +1236,7 @@ span.border.two:after {
 }
 /*-- footer --*/
 .footer {
-    background: url(../images/contact.jpeg) no-repeat center top;
+    background: url(../images/contact.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
