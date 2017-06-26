@@ -516,7 +516,7 @@ span.border.one:after {
 .about-right{
     float: left;
     padding:0;
-    background:url(../images/midoo.png) no-repeat 100px 0px ;
+    background:url(../images/midoo.png) no-repeat 0px 0px ;
     min-height:580px;
     background-size: cover;
     -o-background-size: cover;
@@ -842,6 +842,7 @@ ul.year li:nth-child(5){
 }
 .time-main {
     margin-top: 3em;
+
 }
 /*--//work--*/
 /*-- portfolio --*/
@@ -1188,10 +1189,11 @@ ul.social-icons.two {
 }
 .mail_right input[type="text"], .mail_right input[type="email"], .mail_right textarea {
     background: none;
-    width: 100%;
+    width: 50%;
     color: #777;
     padding: 19px 10px;
     margin-bottom: 24px;
+    margin-top: 24px;
     outline: none;
     border: 2px solid #00a78e;
 }
@@ -1221,10 +1223,10 @@ ul.social-icons.two {
     height:400px;
     outline:none;
 }
-.mail_right {
+/*.mail_right {
     background: #FDFFFE;
     padding: 2em;
-}
+}*/
 span.border.two {
     width: 18%;
     background: #fff;
